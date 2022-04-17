@@ -1,0 +1,7 @@
+[server]
+datadir=/home/runner/MysqlWithNix/data
+log-error=_database.err
+innodb-log-file-size=4194304
+# Case insensitive table names
+lower_case_table_names=1
+log-bin=binlog

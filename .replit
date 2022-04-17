@@ -1,0 +1,2 @@
+# run startup as a nohup command
+run = 'nohup sh server > access.log; clear; banner smskSoft; echo "Logfile: access.log"; echo "Server started as a background service."; echo "Copyright (C)devsimsek."; echo "Opening logfile."; echo "----------------------------------------------------------------------";'

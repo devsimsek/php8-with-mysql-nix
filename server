@@ -1,0 +1,20 @@
+#!/bin/sh
+mariadb-admin shutdown
+kill $(ps aux | grep '[p]hp' | awk '{print $2}')
+php -S 0.0.0.0:3000 -t ./htdocs ./htdocs/index.php  &
+cat <<EOT > $HOME/$REPL_SLUG/database/my.cnf
+[server]
+datadir=$HOME/$REPL_SLUG/database
+log-error=_database.err
+innodb-log-file-size=4194304
+# I prefer case-insensitive table names
+lower_case_table_names=1
+log-bin=binlog
+EOT
+
+export MYSQL_HOME=$HOME/$REPL_SLUG/database
+echo $MYSQL_HOME
+# Now start the mariadb server as a background task with the parameters in my.cnf
+mysqld_safe &
+
+# Logging is in nohup.out (shell log) & data/_database.log (database log)

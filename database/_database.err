@@ -1,0 +1,1181 @@
+220414 19:19:52 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/data
+2022-04-14 19:19:52 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 475 ...
+2022-04-14 19:19:52 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32188)
+2022-04-14 19:19:52 0 [Note] InnoDB: The first innodb_system data file 'ibdata1' did not exist. A new tablespace will be created!
+2022-04-14 19:19:52 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 19:19:52 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 19:19:52 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 19:19:52 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 19:19:52 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 19:19:52 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 19:19:52 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 19:19:52 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 19:19:52 0 [Note] InnoDB: Setting file './ibdata1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 19:19:52 0 [Note] InnoDB: File './ibdata1' size is now 12 MB.
+2022-04-14 19:19:52 0 [Note] InnoDB: Setting log file ./ib_logfile101 size to 4194304 bytes
+2022-04-14 19:19:52 0 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2022-04-14 19:19:52 0 [Note] InnoDB: New log file created, LSN=10317
+2022-04-14 19:19:52 0 [Note] InnoDB: Doublewrite buffer not found: creating new
+2022-04-14 19:19:52 0 [Note] InnoDB: Doublewrite buffer created
+2022-04-14 19:19:52 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 19:19:52 0 [Note] InnoDB: Creating foreign key constraint system tables.
+2022-04-14 19:19:52 0 [Note] InnoDB: Creating tablespace and datafile system tables.
+2022-04-14 19:19:52 0 [Note] InnoDB: Creating sys_virtual system tables.
+2022-04-14 19:19:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 19:19:52 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 19:19:52 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 19:19:52 0 [Note] InnoDB: 10.5.11 started; log sequence number 0; transaction id 7
+2022-04-14 19:19:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 19:19:52 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2022-04-14 19:19:52 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1017: Can't find file: './mysql/' (errno: 2 "No such file or directory")
+2022-04-14 19:19:52 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-04-14 19:19:52 0 [Note] Server socket created on IP: '::'.
+2022-04-14 19:19:52 0 [ERROR] Fatal error: Can't open and lock privilege tables: Table 'mysql.db' doesn't exist
+2022-04-14 19:19:52 0 [ERROR] Aborting
+220414 19:19:52 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/data/77ffe8ad3203.pid ended
+220414 19:22:59 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/data
+2022-04-14 19:22:59 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 852 ...
+2022-04-14 19:22:59 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32188)
+2022-04-14 19:22:59 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 19:22:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 19:22:59 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 19:22:59 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 19:22:59 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 19:22:59 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 19:22:59 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 19:22:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 19:22:59 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 19:22:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 19:22:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 19:22:59 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 19:22:59 0 [Note] InnoDB: 10.5.11 started; log sequence number 35040; transaction id 8
+2022-04-14 19:22:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 19:22:59 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2022-04-14 19:22:59 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/data/ib_buffer_pool
+2022-04-14 19:22:59 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 19:22:59
+2022-04-14 19:22:59 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+2022-04-14 19:22:59 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-04-14 19:22:59 0 [Note] Server socket created on IP: '::'.
+2022-04-14 19:22:59 0 [ERROR] Fatal error: Can't open and lock privilege tables: Table 'mysql.db' doesn't exist
+2022-04-14 19:22:59 0 [ERROR] Aborting
+220414 19:23:00 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/data/77ffe8ad3203.pid ended
+220414 19:28:06 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/data
+2022-04-14 19:28:06 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 1395 ...
+2022-04-14 19:28:06 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32188)
+2022-04-14 19:28:06 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 19:28:06 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 19:28:06 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 19:28:06 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 19:28:06 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 19:28:06 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 19:28:06 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 19:28:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 19:28:06 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 19:28:07 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 19:28:07 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 19:28:07 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 19:28:07 0 [Note] InnoDB: 10.5.11 started; log sequence number 35052; transaction id 8
+2022-04-14 19:28:07 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/data/ib_buffer_pool
+2022-04-14 19:28:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 19:28:07 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 19:28:06
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/plugin'
+2022-04-14 19:28:07 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/servers'
+2022-04-14 19:28:07 0 [Note] Server socket created on IP: '::'.
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/db'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/proxies_priv'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/roles_mapping'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/global_priv'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/time_zone_leap_second'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/time_zone_name'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/time_zone'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/time_zone_transition_type'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/time_zone_transition'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/tables_priv'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/columns_priv'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/procs_priv'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/func'
+2022-04-14 19:28:07 0 [Note] Zerofilling moved table:  './mysql/event'
+2022-04-14 19:28:07 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 19:28:07 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 19:28:07 0 [Note] Added new Master_info '' to hash table
+2022-04-14 19:28:07 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 19:33:46 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 19:33:46 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 19:33:46 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 19:33:46 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 19:33:46 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 19:33:46 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 19:33:46
+2022-04-14 19:33:46 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 19:33:46 0 [Note] InnoDB: Shutdown completed; log sequence number 35064; transaction id 8
+2022-04-14 19:33:46 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 19:39:52 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 19:39:52 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 2788 ...
+2022-04-14 19:39:52 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32188)
+2022-04-14 19:39:52 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 19:39:52 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 19:39:52 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 19:39:52 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 19:39:52 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 19:39:52 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 19:39:52 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 19:39:52 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 19:39:52 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 19:39:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 19:39:52 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 19:39:52 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 19:39:52 0 [Note] InnoDB: 10.5.11 started; log sequence number 35064; transaction id 8
+2022-04-14 19:39:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 19:39:52 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 19:39:52 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 19:39:52 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 19:39:52
+2022-04-14 19:39:52 0 [Note] Server socket created on IP: '::'.
+2022-04-14 19:39:52 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 19:39:52 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 19:39:52 0 [Note] Added new Master_info '' to hash table
+2022-04-14 19:39:52 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 19:39:53 4 [Warning] Access denied for user ''@'localhost' (using password: NO)
+2022-04-14 19:41:01 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 19:41:01 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 19:41:01 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 19:41:01 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 19:41:01 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 19:41:01 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 19:41:01
+2022-04-14 19:41:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 19:41:02 0 [Note] InnoDB: Shutdown completed; log sequence number 35076; transaction id 8
+2022-04-14 19:41:02 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 19:41:02 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/77ffe8ad3203.pid ended
+220414 19:41:03 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 19:41:03 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 2999 ...
+2022-04-14 19:41:03 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32188)
+2022-04-14 19:41:03 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 19:41:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 19:41:03 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 19:41:03 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 19:41:03 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 19:41:03 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 19:41:03 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 19:41:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 19:41:03 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 19:41:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 19:41:03 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 19:41:03 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 19:41:03 0 [Note] InnoDB: 10.5.11 started; log sequence number 35076; transaction id 8
+2022-04-14 19:41:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 19:41:03 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 19:41:03 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 19:41:03
+2022-04-14 19:41:03 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 19:41:03 0 [Note] Server socket created on IP: '::'.
+2022-04-14 19:41:03 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 19:41:03 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 19:41:03 0 [Note] Added new Master_info '' to hash table
+2022-04-14 19:41:03 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 19:41:04 4 [Warning] Access denied for user ''@'localhost' (using password: NO)
+2022-04-14 19:41:04 5 [Warning] Access denied for user ''@'localhost' (using password: NO)
+2022-04-14 19:41:16 6 [Warning] Access denied for user ''@'localhost' (using password: NO)
+2022-04-14 19:41:21 7 [Warning] Access denied for user ''@'localhost' (using password: NO)
+2022-04-14 19:41:28 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 19:41:28 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 19:41:28 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 19:41:28 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 19:41:28 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 19:41:28 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 19:41:28
+2022-04-14 19:41:28 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 19:41:28 0 [Note] InnoDB: Shutdown completed; log sequence number 35088; transaction id 8
+2022-04-14 19:41:28 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 19:41:28 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/77ffe8ad3203.pid ended
+220414 19:41:30 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 19:41:30 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 3174 ...
+2022-04-14 19:41:30 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32188)
+2022-04-14 19:41:30 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 19:41:30 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 19:41:30 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 19:41:30 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 19:41:30 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 19:41:30 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 19:41:30 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 19:41:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 19:41:30 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 19:41:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 19:41:30 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 19:41:30 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 19:41:30 0 [Note] InnoDB: 10.5.11 started; log sequence number 35088; transaction id 8
+2022-04-14 19:41:30 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 19:41:30 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 19:41:30 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 19:41:30
+2022-04-14 19:41:30 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 19:41:30 0 [Note] Server socket created on IP: '::'.
+2022-04-14 19:41:30 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 19:41:30 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 19:41:30 0 [Note] Added new Master_info '' to hash table
+2022-04-14 19:41:30 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 19:41:31 4 [Warning] Access denied for user ''@'localhost' (using password: NO)
+2022-04-14 19:43:59 7 [Warning] Access denied for user 'root'@'localhost'
+2022-04-14 19:49:30 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'runner' host: 'localhost' (Got an error reading communication packets)
+220414 21:30:17 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 21:30:19 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 127 ...
+2022-04-14 21:30:19 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 21:30:19 0 [Note] mariadbd: Aria engine: starting recovery
+recovered pages: 0% 10% 23% 100% (0.0 seconds); tables to flush: 1 0
+ (0.0 seconds); 
+2022-04-14 21:30:19 0 [Note] mariadbd: Aria engine: recovery done
+2022-04-14 21:30:19 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 21:30:19 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 21:30:19 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 21:30:19 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 21:30:19 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 21:30:19 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 21:30:19 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 21:30:19 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 21:30:19 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35088,35088
+2022-04-14 21:30:20 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 21:30:20 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 21:30:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 21:30:20 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 21:30:20 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 21:30:20 0 [Note] InnoDB: 10.5.11 started; log sequence number 35100; transaction id 8
+2022-04-14 21:30:20 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 21:30:20 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 21:30:20
+2022-04-14 21:30:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 21:30:20 0 [Note] Recovering after a crash using binlog
+2022-04-14 21:30:20 0 [Note] Starting crash recovery...
+2022-04-14 21:30:20 0 [Note] Crash recovery finished.
+2022-04-14 21:30:20 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 21:30:20 0 [Note] Server socket created on IP: '::'.
+2022-04-14 21:30:20 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 21:30:20 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 21:30:20 0 [Note] Added new Master_info '' to hash table
+2022-04-14 21:30:20 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 21:30:20 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-14 21:30:20 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-14 22:48:36 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:48:36 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:48:36 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:48:36 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:48:36 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:48:36 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:48:36
+2022-04-14 22:48:36 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:48:36 0 [Note] InnoDB: Shutdown completed; log sequence number 35112; transaction id 8
+2022-04-14 22:48:36 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:48:36 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:48:38 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:48:39 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 283 ...
+2022-04-14 22:48:39 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:48:39 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:48:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:48:39 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:48:39 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:48:39 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:48:39 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:48:39 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:48:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:48:39 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:48:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:48:39 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:48:39 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:48:39 0 [Note] InnoDB: 10.5.11 started; log sequence number 35112; transaction id 8
+2022-04-14 22:48:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:48:39 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:48:39 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:48:39
+2022-04-14 22:48:39 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:48:39 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:48:39 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:48:39 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:48:39 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:48:39 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:49:08 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:49:08 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:49:08 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:49:08 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:49:08 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:49:08 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:49:08
+2022-04-14 22:49:08 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:49:08 0 [Note] InnoDB: Shutdown completed; log sequence number 35124; transaction id 8
+2022-04-14 22:49:08 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:49:08 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:49:10 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:49:10 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 443 ...
+2022-04-14 22:49:10 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:49:10 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:49:10 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:49:10 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:49:10 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:49:10 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:49:10 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:49:10 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:49:10 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:49:10 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:49:10 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:49:10 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:49:10 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:49:10 0 [Note] InnoDB: 10.5.11 started; log sequence number 35124; transaction id 8
+2022-04-14 22:49:10 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:49:10 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:49:10 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:49:10
+2022-04-14 22:49:10 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:49:10 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:49:10 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:49:10 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:49:10 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:49:10 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:49:29 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:49:29 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:49:29 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:49:29 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:49:29 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:49:29 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:49:29
+2022-04-14 22:49:29 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:49:29 0 [Note] InnoDB: Shutdown completed; log sequence number 35136; transaction id 8
+2022-04-14 22:49:29 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:49:29 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:49:31 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:49:31 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 599 ...
+2022-04-14 22:49:31 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:49:31 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:49:31 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:49:31 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:49:31 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:49:31 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:49:31 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:49:31 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:49:31 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:49:31 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:49:31 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:49:31 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:49:31 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:49:31 0 [Note] InnoDB: 10.5.11 started; log sequence number 35136; transaction id 8
+2022-04-14 22:49:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:49:31 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:49:31 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:49:31
+2022-04-14 22:49:31 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:49:31 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:49:31 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:49:31 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:49:31 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:49:31 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:50:02 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:50:02 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:50:02 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:50:02 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:50:02 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:50:02 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:50:02
+2022-04-14 22:50:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:50:02 0 [Note] InnoDB: Shutdown completed; log sequence number 35148; transaction id 8
+2022-04-14 22:50:02 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:50:03 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:50:04 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:50:04 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 761 ...
+2022-04-14 22:50:04 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:50:04 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:50:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:50:04 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:50:04 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:50:04 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:50:04 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:50:04 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:50:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:50:04 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:50:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:50:04 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:50:04 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:50:04 0 [Note] InnoDB: 10.5.11 started; log sequence number 35148; transaction id 8
+2022-04-14 22:50:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:50:04 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:50:04 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:50:04 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:50:04
+2022-04-14 22:50:04 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:50:05 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:50:05 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:50:05 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:50:05 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:51:51 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:51:51 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:51:52 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:51:52 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:51:52 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:51:52 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:51:52
+2022-04-14 22:51:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:51:52 0 [Note] InnoDB: Shutdown completed; log sequence number 35160; transaction id 8
+2022-04-14 22:51:52 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:51:52 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:51:54 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:51:54 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 1061 ...
+2022-04-14 22:51:54 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:51:54 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:51:54 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:51:54 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:51:54 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:51:54 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:51:54 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:51:54 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:51:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:51:54 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:51:54 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:51:54 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:51:54 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:51:54 0 [Note] InnoDB: 10.5.11 started; log sequence number 35160; transaction id 8
+2022-04-14 22:51:54 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:51:54 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:51:54 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:51:54
+2022-04-14 22:51:54 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:51:55 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:51:55 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:51:55 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:51:55 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:51:55 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:52:25 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:52:25 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:52:25 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:52:25 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:52:25 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:52:25 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:52:25
+2022-04-14 22:52:25 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:52:25 0 [Note] InnoDB: Shutdown completed; log sequence number 35172; transaction id 8
+2022-04-14 22:52:25 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:52:25 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:52:26 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:52:27 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 1222 ...
+2022-04-14 22:52:27 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:52:27 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:52:27 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:52:27 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:52:27 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:52:27 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:52:27 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:52:27 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:52:27 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:52:27 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:52:27 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:52:27 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:52:27 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:52:27 0 [Note] InnoDB: 10.5.11 started; log sequence number 35172; transaction id 8
+2022-04-14 22:52:27 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:52:27 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:52:27 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:52:27
+2022-04-14 22:52:27 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:52:27 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:52:27 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:52:27 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:52:27 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:52:27 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:53:01 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:53:01 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:53:01 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:53:01 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:53:01 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:53:01 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:53:01
+2022-04-14 22:53:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:53:02 0 [Note] InnoDB: Shutdown completed; log sequence number 35184; transaction id 8
+2022-04-14 22:53:02 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:53:02 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:53:04 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:53:04 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 1408 ...
+2022-04-14 22:53:04 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:53:04 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:53:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:53:04 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:53:04 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:53:04 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:53:04 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:53:04 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:53:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:53:04 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:53:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:53:04 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:53:04 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:53:04 0 [Note] InnoDB: 10.5.11 started; log sequence number 35184; transaction id 8
+2022-04-14 22:53:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:53:04 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:53:04 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:53:04
+2022-04-14 22:53:04 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:53:04 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:53:04 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:53:04 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:53:04 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:53:04 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:53:33 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:53:33 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:53:33 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:53:33 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:53:33 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:53:33 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:53:33
+2022-04-14 22:53:33 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:53:33 0 [Note] InnoDB: Shutdown completed; log sequence number 35196; transaction id 8
+2022-04-14 22:53:33 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:53:33 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:53:35 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:53:35 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 1572 ...
+2022-04-14 22:53:35 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:53:36 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:53:36 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:53:36 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:53:36 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:53:36 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:53:36 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:53:36 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:53:36 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:53:36 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:53:36 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:53:36 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:53:36 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:53:36 0 [Note] InnoDB: 10.5.11 started; log sequence number 35196; transaction id 8
+2022-04-14 22:53:36 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:53:36 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:53:36 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:53:36 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:53:36
+2022-04-14 22:53:36 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:53:36 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:53:36 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:53:36 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:53:36 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:53:57 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: unknown): Normal shutdown
+2022-04-14 22:53:57 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:53:57 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:53:57 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:53:57 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:53:57 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:53:57
+2022-04-14 22:53:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:53:57 0 [Note] InnoDB: Shutdown completed; log sequence number 35208; transaction id 8
+2022-04-14 22:53:57 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:53:57 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:53:58 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:53:58 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 1733 ...
+2022-04-14 22:53:58 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:53:59 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:53:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:53:59 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:53:59 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:53:59 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:53:59 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:53:59 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:53:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:53:59 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:53:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:53:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:53:59 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:53:59 0 [Note] InnoDB: 10.5.11 started; log sequence number 35208; transaction id 8
+2022-04-14 22:53:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:53:59 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:53:59 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:53:59
+2022-04-14 22:53:59 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:53:59 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:53:59 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:53:59 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:53:59 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:53:59 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:54:05 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: unknown): Normal shutdown
+2022-04-14 22:54:05 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:54:05 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:54:05 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:54:05 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:05 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:54:05
+2022-04-14 22:54:05 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:54:05 0 [Note] InnoDB: Shutdown completed; log sequence number 35220; transaction id 8
+2022-04-14 22:54:05 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:54:05 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:54:07 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:54:07 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 1882 ...
+2022-04-14 22:54:07 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:54:07 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:54:07 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:54:07 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:54:07 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:54:07 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:54:07 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:54:07 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:54:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:54:07 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:54:07 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:54:07 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:54:07 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:54:07 0 [Note] InnoDB: 10.5.11 started; log sequence number 35220; transaction id 8
+2022-04-14 22:54:07 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:54:07 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:54:07
+2022-04-14 22:54:07 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:07 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:54:07 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:07 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:54:07 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:54:07 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:54:15 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: unknown): Normal shutdown
+2022-04-14 22:54:15 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:54:15 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:54:15 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:54:15 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:16 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:54:15
+2022-04-14 22:54:16 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:54:16 0 [Note] InnoDB: Shutdown completed; log sequence number 35232; transaction id 8
+2022-04-14 22:54:16 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:54:16 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:54:17 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:54:17 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 2029 ...
+2022-04-14 22:54:17 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:54:17 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:54:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:54:17 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:54:17 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:54:17 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:54:17 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:54:18 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:54:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:54:18 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:54:18 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:54:18 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:54:18 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:54:18 0 [Note] InnoDB: 10.5.11 started; log sequence number 35232; transaction id 8
+2022-04-14 22:54:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:54:18 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:18 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:54:18
+2022-04-14 22:54:18 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:18 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:54:18 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:18 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:54:18 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:54:18 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:54:29 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: unknown): Normal shutdown
+2022-04-14 22:54:29 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:54:29 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:54:29 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:54:29 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:29 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:54:29
+2022-04-14 22:54:29 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:54:29 0 [Note] InnoDB: Shutdown completed; log sequence number 35244; transaction id 8
+2022-04-14 22:54:29 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:54:29 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:54:31 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:54:31 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 2180 ...
+2022-04-14 22:54:31 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:54:31 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:54:31 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:54:31 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:54:31 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:54:31 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:54:31 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:54:32 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:54:32 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:54:32 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:54:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:54:32 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:54:32 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:54:32 0 [Note] InnoDB: 10.5.11 started; log sequence number 35244; transaction id 8
+2022-04-14 22:54:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:54:32 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:32 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:54:32
+2022-04-14 22:54:32 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:32 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:54:32 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:32 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:54:32 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:54:32 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:54:39 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: unknown): Normal shutdown
+2022-04-14 22:54:39 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:54:39 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:54:39 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:54:39 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:39 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:54:39
+2022-04-14 22:54:40 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:54:40 0 [Note] InnoDB: Shutdown completed; log sequence number 35256; transaction id 8
+2022-04-14 22:54:40 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:54:40 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:54:41 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:54:42 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 2326 ...
+2022-04-14 22:54:42 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:54:42 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:54:42 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:54:42 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:54:42 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:54:42 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:54:42 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:54:42 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:54:42 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:54:42 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:54:42 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:54:42 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:54:42 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:54:42 0 [Note] InnoDB: 10.5.11 started; log sequence number 35256; transaction id 8
+2022-04-14 22:54:42 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:54:42 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:42 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:42 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:54:42 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:54:42
+2022-04-14 22:54:42 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:42 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:54:42 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:54:42 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:54:50 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: unknown): Normal shutdown
+2022-04-14 22:54:50 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:54:50 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:54:50 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:54:50 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:50 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:54:50
+2022-04-14 22:54:50 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:54:50 0 [Note] InnoDB: Shutdown completed; log sequence number 35268; transaction id 8
+2022-04-14 22:54:50 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:54:50 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:54:55 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:54:55 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 2490 ...
+2022-04-14 22:54:55 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:54:55 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:54:55 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:54:55 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:54:55 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:54:55 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:54:55 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:54:55 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:54:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:54:55 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:54:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:54:55 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:54:55 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:54:55 0 [Note] InnoDB: 10.5.11 started; log sequence number 35268; transaction id 8
+2022-04-14 22:54:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:54:55 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:54:55 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:54:55
+2022-04-14 22:54:55 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:55 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:54:55 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:54:55 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:54:55 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:54:55 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-14 22:55:26 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (initiated by: runner[runner] @ localhost []): Normal shutdown
+2022-04-14 22:55:26 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-04-14 22:55:26 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-04-14 22:55:26 0 [Note] InnoDB: Starting shutdown...
+2022-04-14 22:55:26 0 [Note] InnoDB: Dumping buffer pool(s) to /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:55:26 0 [Note] InnoDB: Buffer pool(s) dump completed at 220414 22:55:26
+2022-04-14 22:55:26 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-14 22:55:26 0 [Note] InnoDB: Shutdown completed; log sequence number 35280; transaction id 8
+2022-04-14 22:55:26 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: Shutdown complete
+
+220414 22:55:26 mysqld_safe mysqld from pid file /home/runner/MysqlWithNix/database/19c8e44e43b0.pid ended
+220414 22:55:27 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-14 22:55:27 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 2676 ...
+2022-04-14 22:55:27 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-14 22:55:27 0 [Note] InnoDB: Uses event mutexes
+2022-04-14 22:55:27 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-14 22:55:27 0 [Note] InnoDB: Number of pools: 1
+2022-04-14 22:55:27 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-14 22:55:27 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-14 22:55:27 0 [Note] InnoDB: Using Linux native AIO
+2022-04-14 22:55:28 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-14 22:55:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-14 22:55:28 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-14 22:55:28 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-14 22:55:28 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-14 22:55:28 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-14 22:55:28 0 [Note] InnoDB: 10.5.11 started; log sequence number 35280; transaction id 8
+2022-04-14 22:55:28 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-14 22:55:28 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-14 22:55:28 0 [Note] InnoDB: Buffer pool(s) load completed at 220414 22:55:28
+2022-04-14 22:55:28 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:55:28 0 [Note] Server socket created on IP: '::'.
+2022-04-14 22:55:28 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-14 22:55:28 0 [Note] Reading of all Master_info entries succeeded
+2022-04-14 22:55:28 0 [Note] Added new Master_info '' to hash table
+2022-04-14 22:55:28 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+220415 01:42:52 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-15  1:42:53 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 128 ...
+2022-04-15  1:42:53 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-15  1:42:53 0 [Note] InnoDB: Uses event mutexes
+2022-04-15  1:42:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-15  1:42:53 0 [Note] InnoDB: Number of pools: 1
+2022-04-15  1:42:53 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-15  1:42:53 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-15  1:42:53 0 [Note] InnoDB: Using Linux native AIO
+2022-04-15  1:42:54 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-15  1:42:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-15  1:42:54 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-15  1:42:54 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-15  1:42:54 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-15  1:42:54 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-15  1:42:54 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-15  1:42:54 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-15  1:42:54 0 [Note] InnoDB: 10.5.11 started; log sequence number 35292; transaction id 8
+2022-04-15  1:42:54 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-15  1:42:54 0 [Note] InnoDB: Buffer pool(s) load completed at 220415  1:42:54
+2022-04-15  1:42:54 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-15  1:42:54 0 [Note] Recovering after a crash using binlog
+2022-04-15  1:42:54 0 [Note] Starting crash recovery...
+2022-04-15  1:42:54 0 [Note] Crash recovery finished.
+2022-04-15  1:42:54 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15  1:42:54 0 [Note] Server socket created on IP: '::'.
+2022-04-15  1:42:54 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15  1:42:54 0 [Note] Reading of all Master_info entries succeeded
+2022-04-15  1:42:54 0 [Note] Added new Master_info '' to hash table
+2022-04-15  1:42:54 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-15  1:42:54 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-15  1:42:54 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-15  1:42:55 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-15  1:42:55 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+220415 02:56:14 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-15  2:56:15 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 127 ...
+2022-04-15  2:56:15 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-15  2:56:15 0 [Note] InnoDB: Uses event mutexes
+2022-04-15  2:56:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-15  2:56:15 0 [Note] InnoDB: Number of pools: 1
+2022-04-15  2:56:15 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-15  2:56:15 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-15  2:56:15 0 [Note] InnoDB: Using Linux native AIO
+2022-04-15  2:56:15 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-15  2:56:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-15  2:56:15 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-15  2:56:15 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-15  2:56:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-15  2:56:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-15  2:56:15 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-15  2:56:15 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-15  2:56:15 0 [Note] InnoDB: 10.5.11 started; log sequence number 35304; transaction id 8
+2022-04-15  2:56:15 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-15  2:56:15 0 [Note] InnoDB: Buffer pool(s) load completed at 220415  2:56:15
+2022-04-15  2:56:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-15  2:56:15 0 [Note] Recovering after a crash using binlog
+2022-04-15  2:56:15 0 [Note] Starting crash recovery...
+2022-04-15  2:56:15 0 [Note] Crash recovery finished.
+2022-04-15  2:56:15 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15  2:56:15 0 [Note] Server socket created on IP: '::'.
+2022-04-15  2:56:16 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15  2:56:16 0 [Note] Reading of all Master_info entries succeeded
+2022-04-15  2:56:16 0 [Note] Added new Master_info '' to hash table
+2022-04-15  2:56:16 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-15  2:56:16 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-15  2:56:16 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-15  2:56:16 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+220415 08:46:49 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-15  8:46:51 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 126 ...
+2022-04-15  8:46:51 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-15  8:46:51 0 [Note] InnoDB: Uses event mutexes
+2022-04-15  8:46:51 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-15  8:46:51 0 [Note] InnoDB: Number of pools: 1
+2022-04-15  8:46:51 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-15  8:46:51 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-15  8:46:51 0 [Note] InnoDB: Using Linux native AIO
+2022-04-15  8:46:51 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-15  8:46:51 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-15  8:46:51 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-15  8:46:51 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-15  8:46:51 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-15  8:46:51 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-15  8:46:51 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-15  8:46:51 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-15  8:46:51 0 [Note] InnoDB: 10.5.11 started; log sequence number 35316; transaction id 8
+2022-04-15  8:46:51 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-15  8:46:51 0 [Note] InnoDB: Buffer pool(s) load completed at 220415  8:46:51
+2022-04-15  8:46:51 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-15  8:46:51 0 [Note] Recovering after a crash using binlog
+2022-04-15  8:46:51 0 [Note] Starting crash recovery...
+2022-04-15  8:46:51 0 [Note] Crash recovery finished.
+2022-04-15  8:46:51 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15  8:46:51 0 [Note] Server socket created on IP: '::'.
+2022-04-15  8:46:51 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15  8:46:51 0 [Note] Reading of all Master_info entries succeeded
+2022-04-15  8:46:51 0 [Note] Added new Master_info '' to hash table
+2022-04-15  8:46:51 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-15  8:46:52 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-15  8:46:52 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-15  8:46:52 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-15  8:46:53 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-15  8:46:53 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+220415 11:00:46 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-15 11:00:48 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 129 ...
+2022-04-15 11:00:48 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-15 11:00:48 0 [Note] InnoDB: Uses event mutexes
+2022-04-15 11:00:48 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-15 11:00:48 0 [Note] InnoDB: Number of pools: 1
+2022-04-15 11:00:48 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-15 11:00:48 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-15 11:00:48 0 [Note] InnoDB: Using Linux native AIO
+2022-04-15 11:00:48 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-15 11:00:48 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-15 11:00:48 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-15 11:00:48 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-15 11:00:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-15 11:00:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-15 11:00:48 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-15 11:00:48 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-15 11:00:48 0 [Note] InnoDB: 10.5.11 started; log sequence number 35344; transaction id 8
+2022-04-15 11:00:48 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-15 11:00:48 0 [Note] InnoDB: Buffer pool(s) load completed at 220415 11:00:48
+2022-04-15 11:00:49 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-15 11:00:49 0 [Note] Recovering after a crash using binlog
+2022-04-15 11:00:49 0 [Note] Starting crash recovery...
+2022-04-15 11:00:49 0 [Note] Crash recovery finished.
+2022-04-15 11:00:49 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15 11:00:49 0 [Note] Server socket created on IP: '::'.
+2022-04-15 11:00:49 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15 11:00:49 0 [Note] Reading of all Master_info entries succeeded
+2022-04-15 11:00:49 0 [Note] Added new Master_info '' to hash table
+2022-04-15 11:00:49 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-15 11:00:49 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-15 11:00:49 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+220415 14:37:42 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-15 14:37:44 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 126 ...
+2022-04-15 14:37:44 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-15 14:37:44 0 [Note] InnoDB: Uses event mutexes
+2022-04-15 14:37:44 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-15 14:37:44 0 [Note] InnoDB: Number of pools: 1
+2022-04-15 14:37:44 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-15 14:37:44 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-15 14:37:44 0 [Note] InnoDB: Using Linux native AIO
+2022-04-15 14:37:44 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-15 14:37:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-15 14:37:44 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-15 14:37:44 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-15 14:37:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-15 14:37:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-15 14:37:44 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-15 14:37:44 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-15 14:37:44 0 [Note] InnoDB: 10.5.11 started; log sequence number 35356; transaction id 8
+2022-04-15 14:37:44 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-15 14:37:44 0 [Note] InnoDB: Buffer pool(s) load completed at 220415 14:37:44
+2022-04-15 14:37:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-15 14:37:44 0 [Note] Recovering after a crash using binlog
+2022-04-15 14:37:44 0 [Note] Starting crash recovery...
+2022-04-15 14:37:44 0 [Note] Crash recovery finished.
+2022-04-15 14:37:44 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15 14:37:45 0 [Note] Server socket created on IP: '::'.
+2022-04-15 14:37:45 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15 14:37:45 0 [Note] Reading of all Master_info entries succeeded
+2022-04-15 14:37:45 0 [Note] Added new Master_info '' to hash table
+2022-04-15 14:37:45 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+220415 20:40:55 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-15 20:40:56 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 127 ...
+2022-04-15 20:40:56 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-15 20:40:56 0 [Note] InnoDB: Uses event mutexes
+2022-04-15 20:40:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-15 20:40:56 0 [Note] InnoDB: Number of pools: 1
+2022-04-15 20:40:56 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-15 20:40:56 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-15 20:40:56 0 [Note] InnoDB: Using Linux native AIO
+2022-04-15 20:40:56 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-15 20:40:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-15 20:40:56 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-15 20:40:57 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-15 20:40:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-15 20:40:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-15 20:40:57 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-15 20:40:57 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-15 20:40:57 0 [Note] InnoDB: 10.5.11 started; log sequence number 35368; transaction id 8
+2022-04-15 20:40:57 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-15 20:40:57 0 [Note] InnoDB: Buffer pool(s) load completed at 220415 20:40:57
+2022-04-15 20:40:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-15 20:40:57 0 [Note] Recovering after a crash using binlog
+2022-04-15 20:40:57 0 [Note] Starting crash recovery...
+2022-04-15 20:40:57 0 [Note] Crash recovery finished.
+2022-04-15 20:40:57 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15 20:40:57 0 [Note] Server socket created on IP: '::'.
+2022-04-15 20:40:57 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15 20:40:57 0 [Note] Reading of all Master_info entries succeeded
+2022-04-15 20:40:57 0 [Note] Added new Master_info '' to hash table
+2022-04-15 20:40:57 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-15 20:40:57 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-15 20:40:57 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+220415 22:31:10 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-15 22:31:12 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 127 ...
+2022-04-15 22:31:12 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-15 22:31:12 0 [Note] InnoDB: Uses event mutexes
+2022-04-15 22:31:12 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-15 22:31:12 0 [Note] InnoDB: Number of pools: 1
+2022-04-15 22:31:12 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-15 22:31:12 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-15 22:31:12 0 [Note] InnoDB: Using Linux native AIO
+2022-04-15 22:31:12 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-15 22:31:12 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-15 22:31:12 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-15 22:31:13 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-15 22:31:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-15 22:31:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-15 22:31:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-15 22:31:13 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-15 22:31:13 0 [Note] InnoDB: 10.5.11 started; log sequence number 35380; transaction id 8
+2022-04-15 22:31:13 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-15 22:31:13 0 [Note] InnoDB: Buffer pool(s) load completed at 220415 22:31:13
+2022-04-15 22:31:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-15 22:31:13 0 [Note] Recovering after a crash using binlog
+2022-04-15 22:31:13 0 [Note] Starting crash recovery...
+2022-04-15 22:31:13 0 [Note] Crash recovery finished.
+2022-04-15 22:31:13 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15 22:31:13 0 [Note] Server socket created on IP: '::'.
+2022-04-15 22:31:13 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-15 22:31:13 0 [Note] Reading of all Master_info entries succeeded
+2022-04-15 22:31:13 0 [Note] Added new Master_info '' to hash table
+2022-04-15 22:31:13 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-15 22:31:13 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-15 22:31:13 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-15 22:31:14 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+220416 17:09:42 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-16 17:09:43 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 127 ...
+2022-04-16 17:09:43 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-16 17:09:44 0 [Note] InnoDB: Uses event mutexes
+2022-04-16 17:09:44 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-16 17:09:44 0 [Note] InnoDB: Number of pools: 1
+2022-04-16 17:09:44 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-16 17:09:44 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-16 17:09:44 0 [Note] InnoDB: Using Linux native AIO
+2022-04-16 17:09:44 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-16 17:09:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-16 17:09:44 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-16 17:09:44 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-16 17:09:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-16 17:09:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-16 17:09:44 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-16 17:09:44 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-16 17:09:44 0 [Note] InnoDB: 10.5.11 started; log sequence number 35392; transaction id 8
+2022-04-16 17:09:44 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-16 17:09:44 0 [Note] InnoDB: Buffer pool(s) load completed at 220416 17:09:44
+2022-04-16 17:09:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-16 17:09:44 0 [Note] Recovering after a crash using binlog
+2022-04-16 17:09:44 0 [Note] Starting crash recovery...
+2022-04-16 17:09:44 0 [Note] Crash recovery finished.
+2022-04-16 17:09:44 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-16 17:09:44 0 [Note] Server socket created on IP: '::'.
+2022-04-16 17:09:44 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-16 17:09:44 0 [Note] Reading of all Master_info entries succeeded
+2022-04-16 17:09:44 0 [Note] Added new Master_info '' to hash table
+2022-04-16 17:09:44 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-16 17:09:44 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-16 17:09:44 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+220416 19:16:49 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-16 19:16:50 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 126 ...
+2022-04-16 19:16:50 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-16 19:16:50 0 [Note] InnoDB: Uses event mutexes
+2022-04-16 19:16:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-16 19:16:50 0 [Note] InnoDB: Number of pools: 1
+2022-04-16 19:16:50 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-16 19:16:50 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-16 19:16:50 0 [Note] InnoDB: Using Linux native AIO
+2022-04-16 19:16:50 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-16 19:16:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-16 19:16:50 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-16 19:16:51 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-16 19:16:51 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-16 19:16:51 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-16 19:16:51 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-16 19:16:51 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-16 19:16:51 0 [Note] InnoDB: 10.5.11 started; log sequence number 35404; transaction id 8
+2022-04-16 19:16:51 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-16 19:16:51 0 [Note] InnoDB: Buffer pool(s) load completed at 220416 19:16:51
+2022-04-16 19:16:51 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-16 19:16:51 0 [Note] Recovering after a crash using binlog
+2022-04-16 19:16:51 0 [Note] Starting crash recovery...
+2022-04-16 19:16:51 0 [Note] Crash recovery finished.
+2022-04-16 19:16:51 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-16 19:16:51 0 [Note] Server socket created on IP: '::'.
+2022-04-16 19:16:51 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-16 19:16:51 0 [Note] Reading of all Master_info entries succeeded
+2022-04-16 19:16:51 0 [Note] Added new Master_info '' to hash table
+2022-04-16 19:16:51 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+220416 23:19:38 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-16 23:19:39 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 130 ...
+2022-04-16 23:19:39 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-16 23:19:39 0 [Note] InnoDB: Uses event mutexes
+2022-04-16 23:19:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-16 23:19:39 0 [Note] InnoDB: Number of pools: 1
+2022-04-16 23:19:39 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-16 23:19:39 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-16 23:19:39 0 [Note] InnoDB: Using Linux native AIO
+2022-04-16 23:19:39 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-16 23:19:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-16 23:19:39 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-16 23:19:39 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-16 23:19:39 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-16 23:19:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-16 23:19:39 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-16 23:19:39 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-16 23:19:39 0 [Note] InnoDB: 10.5.11 started; log sequence number 35416; transaction id 8
+2022-04-16 23:19:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-16 23:19:39 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-16 23:19:39 0 [Note] InnoDB: Buffer pool(s) load completed at 220416 23:19:39
+2022-04-16 23:19:39 0 [Note] Recovering after a crash using binlog
+2022-04-16 23:19:39 0 [Note] Starting crash recovery...
+2022-04-16 23:19:39 0 [Note] Crash recovery finished.
+2022-04-16 23:19:39 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-16 23:19:39 0 [Note] Server socket created on IP: '::'.
+2022-04-16 23:19:39 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-16 23:19:39 0 [Note] Reading of all Master_info entries succeeded
+2022-04-16 23:19:39 0 [Note] Added new Master_info '' to hash table
+2022-04-16 23:19:39 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-16 23:19:40 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-16 23:19:40 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-16 23:19:40 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+220417 05:58:10 mysqld_safe Starting mariadbd daemon with databases from /home/runner/MysqlWithNix/database
+2022-04-17  5:58:12 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd (mysqld 10.5.11-MariaDB-log) starting as process 127 ...
+2022-04-17  5:58:12 0 [Warning] Could not increase number of max_open_files to more than 5242 (request: 32185)
+2022-04-17  5:58:13 0 [Note] InnoDB: Uses event mutexes
+2022-04-17  5:58:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-17  5:58:13 0 [Note] InnoDB: Number of pools: 1
+2022-04-17  5:58:13 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-04-17  5:58:13 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2022-04-17  5:58:13 0 [Note] InnoDB: Using Linux native AIO
+2022-04-17  5:58:13 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-04-17  5:58:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-17  5:58:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=35280,35280
+2022-04-17  5:58:13 0 [Note] InnoDB: 128 rollback segments are active.
+2022-04-17  5:58:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-17  5:58:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-17  5:58:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-17  5:58:13 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-04-17  5:58:13 0 [Note] InnoDB: 10.5.11 started; log sequence number 35428; transaction id 8
+2022-04-17  5:58:13 0 [Note] InnoDB: Loading buffer pool(s) from /home/runner/MysqlWithNix/database/ib_buffer_pool
+2022-04-17  5:58:13 0 [Note] InnoDB: Buffer pool(s) load completed at 220417  5:58:13
+2022-04-17  5:58:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-17  5:58:13 0 [Note] Recovering after a crash using binlog
+2022-04-17  5:58:13 0 [Note] Starting crash recovery...
+2022-04-17  5:58:13 0 [Note] Crash recovery finished.
+2022-04-17  5:58:13 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-17  5:58:13 0 [Note] Server socket created on IP: '::'.
+2022-04-17  5:58:13 2 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2022-04-17  5:58:13 0 [Note] Reading of all Master_info entries succeeded
+2022-04-17  5:58:13 0 [Note] Added new Master_info '' to hash table
+2022-04-17  5:58:13 0 [Note] /nix/store/nv69km6gwdpgnzhn4y31h9mx4lx6hchj-mariadb-server-10.5.11/bin/mariadbd: ready for connections.
+Version: '10.5.11-MariaDB-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  MariaDB Server
+2022-04-17  5:58:13 4 [Warning] IP address '172.18.0.1' could not be resolved: Name or service not known
+2022-04-17  5:58:13 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2022-04-17  5:58:14 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
